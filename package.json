@@ -1,0 +1,17 @@
+{
+  "name": "@custody/plugin-log-notifier",
+  "version": "0.0.1",
+  "description": "Post a notification when your process logs a relevant message",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "custody",
+    "plugin",
+    "notifications",
+    "logs"
+  ],
+  "author": "Jeff Wear <jeffreywear@gmail.com>",
+  "license": "MIT"
+}
