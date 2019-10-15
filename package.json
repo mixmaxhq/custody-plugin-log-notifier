@@ -1,8 +1,8 @@
 {
   "name": "@custody/plugin-log-notifier",
   "version": "0.0.1",
-  "description": "Post a notification when your process logs a relevant message",
-  "main": "index.js",
+  "description": "Post a native notification when your process logs a relevant message",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -28,5 +28,9 @@
   "devDependencies": {
     "eslint": "^6.3.0",
     "eslint-config-mixmax": "^3.4.0"
+  },
+  "dependencies": {
+    "node-notifier": "^5.4.3",
+    "promise-callbacks": "^3.3.0"
   }
 }
