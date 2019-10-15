@@ -2,7 +2,7 @@
 
 As developers, we wish that we got immediate feedback to our changes. Sometimes, we don't:
 
-![](https://imgs.xkcd.com/comics/compiling.png)
+[![](https://imgs.xkcd.com/comics/compiling.png)](https://xkcd.com/303/)
 
 This [custody] plugin can restore your focus by notifying you when your app logs certain messages. You
 might use this to notify you when your build finishes, by watching for
