@@ -23,7 +23,7 @@ npm install -g @custody/plugin-log-notifier
 
 Make sure you also configure the plugin as in the next section.
 
-Note that this only supports OS X at the moment.
+Note that this only supports OS X [at the moment][Windows and Linux support].
 
 ## Usage
 
@@ -95,10 +95,11 @@ without having to pass settings through to the build processes.
 
 ## Contributing
 
-We welcome bug reports and feature suggestions! In particular, we'd love for Windows and Linux
-support.
+We welcome bug reports and feature suggestions! In particular, we'd love for
+[Windows and Linux support].
 
 [custody]: https://github.com/mixmaxhq/custody/
 [debugger]: https://github.com/mixmaxhq/custody-plugin-start-debugger
 [parsed as]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Regexp
 [`gulp-notify`]: https://www.npmjs.com/package/gulp-notify
+[Windows and Linux support]: https://github.com/mixmaxhq/custody-plugin-log-notifier/issues/2
