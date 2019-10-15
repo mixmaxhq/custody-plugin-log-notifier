@@ -1,8 +1,8 @@
 const notifier = require('node-notifier');
 const {promisify} = require('promise-callbacks');
-const exec = promisify(require('child_process').exec);
+const execFile = promisify(require('child_process').execFile);
 
-module.exports = function({ debug }, { patterns }) {
+module.exports = function({ debug }, { patterns, terminal = 'Terminal' }) {
   const matchers = patterns.map((pattern) => new RegExp(pattern));
 
   return {
@@ -23,7 +23,7 @@ module.exports = function({ debug }, { patterns }) {
           // when you click the notification body but not when you click "Show" :\. And, fwiw, we
           // can't omit the `actions` and only have the user click on the notification body because
           // `activate` doesn't work unless `actions` is defined.
-          exec('open -a Terminal').catch((err) => debug('Could not activate Terminal:', err));
+          execFile('open', ['-a', terminal]).catch((err) => debug('Could not activate Terminal:', err));
         }
       });
     }
