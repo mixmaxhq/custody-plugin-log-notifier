@@ -34,7 +34,7 @@
     "prettier": "^1.19.1"
   },
   "dependencies": {
-    "node-notifier": "^5.4.3",
+    "node-notifier": "^8.0.1",
     "promise-callbacks": "^3.3.0"
   }
 }
